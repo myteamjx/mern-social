@@ -14,7 +14,10 @@ cleanup:
   Annotations:
     helm.sh/hook: pre-delete
     helm.sh/hook-delete-policy: hook-succeeded
-
+mongodb:
+  mongodbUsername: anju
+  mongodbPassword: test
+  mongodbDatabase: mern-db
 preview:
   image:
     repository:
