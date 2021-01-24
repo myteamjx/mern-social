@@ -1,0 +1,11 @@
+# charts/preview/templates/mysql.yaml
+kind: Service
+apiVersion: v1
+metadata:
+  name: mongo
+spec:
+  type: ExternalName
+  # Target service DNS name
+  externalName: mongo.jx-staging.svc.cluster.local
+  ports:
+  - port: 27017

@@ -20,3 +20,8 @@ preview:
     repository:
     tag:
     pullPolicy: IfNotPresent
+
+mongodb:
+  mongodbUsername: anju
+  mongodbPassword: test
+  mongodbDatabase: mern-db    
