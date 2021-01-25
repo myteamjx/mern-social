@@ -8,7 +8,11 @@ dependencies:
   name: exposecontroller
   repository: http://chartmuseum.jenkins-x.io
   version: 2.3.92
-
+- name: mongodb
+  alias: mern-db
+  version: 7.6.5
+  repository: https://kubernetes-charts.storage.googleapis.com
+  condition: mern-db.enabled
   # !! "alias: preview" must be last entry in dependencies array !!
   # !! Place custom dependencies above !!
 - alias: preview
