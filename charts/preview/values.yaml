@@ -17,7 +17,7 @@ cleanup:
 mongodb:
   mongodbUsername: test
   mongodbPassword: test
-  mongodbDatabase: db
+  mongodbDatabase: mern-db
 preview:
   image:
     repository:
